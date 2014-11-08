@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:showDividers="none"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/decimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:gravity="center" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Keyboard" />
+
+    <Button
+        android:id="@+id/hexB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert decimal to hexadecimal" />
+
+    <Button
+        android:id="@+id/binaryB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert decimal to binary" />
+
+    <Button
+        android:id="@+id/hexTodec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert hexadecimal to decimal" />
+
+    <Button
+        android:id="@+id/decimalB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Convert binary to decimal"
+        android:textColorHighlight="#33B5E5" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="true" />
+
+</LinearLayout>
